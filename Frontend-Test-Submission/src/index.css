@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
 }
 
-/* Scrollbar styling */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -25,7 +25,7 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Anchor tag styling */
+
 a {
   color: #1976d2;
   text-decoration: none;
@@ -34,7 +34,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Form elements */
+
 input,
 textarea,
 select,
@@ -42,13 +42,13 @@ button {
   font-family: inherit;
 }
 
-/* Optional: Smooth transition on hover buttons/links */
+
 button,
 a {
   transition: all 0.2s ease-in-out;
 }
 
-/* Utility classes (if needed) */
+
 .mt-4 {
   margin-top: 1rem;
 }
