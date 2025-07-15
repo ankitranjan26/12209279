@@ -4,10 +4,10 @@ import { Log } from '../utils/logger';
 export const loggingMiddleware = async (req: Request, res: Response, next: NextFunction) => {
   const { method, originalUrl } = req;
 
-  // Log incoming request
+  
   await Log('backend', 'info', 'middleware', `Incoming ${method} request to ${originalUrl}`);
 
-  // Optional: Add timing
+  
   const start = Date.now();
 
   res.on('finish', async () => {
