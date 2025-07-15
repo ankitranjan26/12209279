@@ -8,11 +8,11 @@ const LOG_API_URL = 'http://29.244.56.144/evaluation-service/logs';
 type Stack = 'backend' | 'frontend';
 type Level = 'debug' | 'info' | 'warn' | 'error' | 'fatal';
 type Package =
-  // Shared
+ 
   | 'auth' | 'config' | 'middleware' | 'utils'
-  // Backend only
+ 
   | 'cache' | 'controller' | 'cron_job' | 'db' | 'domain' | 'handler' | 'repository' | 'route' | 'service'
-  // Frontend only
+
   | 'api' | 'component' | 'hook' | 'page' | 'state' | 'style';
 
 export async function Log(
